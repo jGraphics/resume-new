@@ -1,19 +1,11 @@
-import HomeSection from './components/HomeSection';
-import AboutSection from './components/AboutSection';
-import WorkSection from './components/WorkSection';
-import NewsSection from './components/NewsSection';
-import ContactSection from './components/ContactSection';
+import HomePage from "./home/page";
 
-const Home = () => {
+const Page = () => {
   return (
     <>
-      <HomeSection />
-      <AboutSection />
-      <WorkSection />
-      <NewsSection />
-      <ContactSection />
+     <HomePage />
     </>
   );
 };
 
-export default Home;
+export default Page;
