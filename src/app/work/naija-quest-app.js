@@ -1,8 +1,14 @@
-const NewsSection = () => {
-    return (
-      <section id="news" className="min-h-screen bg-gray-200 flex items-center justify-center">
+// src/pages/work/[id].js
 
-  <div className="max-w-screen-xl mx-auto p-5 sm:p-8 md:p-12 relative">
+import Link from 'next/link';
+
+// Inside the WorkDetail component
+<div>
+  <Link href="/#work">
+    <a className="text-blue-500 hover:underline">Back to Work Section</a>
+  </Link>
+
+<div className="max-w-screen-xl mx-auto p-5 sm:p-8 md:p-12 relative">
     <div
       className="bg-cover h-64 text-center overflow-hidden"
       style={{
@@ -116,9 +122,4 @@ const NewsSection = () => {
       </div>
     </div>
   </div>
-      </section>
-    );
-  };
-  
-  export default NewsSection;
-  
+  </div>

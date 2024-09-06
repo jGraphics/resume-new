@@ -1,3 +1,4 @@
+import 'swiper/css';
 import HomePage from "./home/page";
 
 const Page = () => {

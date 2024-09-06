@@ -4,7 +4,7 @@ import WorkSection from '../_components/WorkSection';
 import NewsSection from '../_components/NewsSection';
 import ContactSection from '../_components/ContactSection';
 
-const Home = () => {
+const blog = () => {
   return (
     <>
       <HomeSection />
@@ -16,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default blog;
