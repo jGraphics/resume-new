@@ -1,6 +1,27 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Getting Started
+
+## App Layout
+
+```
+src/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   ├── home/
+│   │   └── page.js
+│   ├── work/
+│   │   ├── page.js
+│   │   ├── naija-quest/
+│   │   │   └── page.js
+│   │   ├── pathed-app/
+│   │   │   └── page.js
+│   │   └── other-article/
+│   │       └── page.js
+└── components/
+
+```
 
 First, run the development server:
 

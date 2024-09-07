@@ -26,7 +26,7 @@ const Header = () => {
               href="#work" 
               className="hover:text-yellow-700 transition duration-300"
             >
-              Work
+              Portfolio
             </Link>
           </li>
           <li>
