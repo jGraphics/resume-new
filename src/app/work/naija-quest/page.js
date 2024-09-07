@@ -5,9 +5,8 @@ export default function NaijaQuest() {
     return (
       // src/pages/work/[id].js
 
-<div>
-  <Link href="/#work">
-    <a className="text-blue-500 hover:underline">Back to Work Section</a>
+<div className='pt-16 bg-white'>
+  <Link href="/#work" className="text-yellow-600 hover:underline block mb-4">Back to Work Section
   </Link>
   <div className="max-w-screen-xl mx-auto p-5 sm:p-8 md:p-12 relative">
     <div
@@ -18,8 +17,8 @@ export default function NaijaQuest() {
           'url("https://api.time.com/wp-content/uploads/2020/07/never-trumpers-2020-election-01.jpg?quality=85&w=1201&h=676&crop=1")'
       }}
     ></div>
-    <div className="max-w-2xl mx-auto">
-      <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+    <div className="max-w-full mx-auto">
+      <div className="mt-3 px-4 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
         <div className="">
           <Link
             href="#"

@@ -1,8 +1,24 @@
+"use client";
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // Update the state based on scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="bg-transparent text-black fixed w-full top-0 left-0 z-50">
+    <header 
+      className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}
+    >
       <nav className="flex justify-end p-4">
         <ul className="flex space-x-4">
           <li>
